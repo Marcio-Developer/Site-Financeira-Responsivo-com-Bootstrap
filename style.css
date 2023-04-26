@@ -1,0 +1,38 @@
+#home {
+    background: #f8edca;
+    color: #ffc107;
+}
+
+.caixa {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #f8edca;
+}
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover{
+    color: #ffc107;
+}
+
+.nav-link:hover{
+    color: #ffc107;
+    background-color: #fff;
+}
+
+footer {
+    background: #ffc107;
+    padding: 5px;
+    align-items: center;
+}
+
+
+/*Mobile*/
+
+@media screen and (max-width: 575px) {
+    .container h1 {
+        font-size: 40px;
+    }
+}
